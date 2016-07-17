@@ -31,7 +31,7 @@ willDisplayCell  //行将显示的时候调用，预加载行
 
 willSelectRowAtIndexPath //选中之前执行,判断选中的行（阻止选中第一行）
 
-... tableDelegate 有很多的的代理接口用到时候再看
+... tableDelegate 有很多的的代理接口用到时候再看｀
 
 
 ```

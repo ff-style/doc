@@ -45,5 +45,22 @@ xcode 用颜色来区分 class归属很好用
 默认： 绿色代表－project  蓝色代表 other
 
 
+
+## @autoreleasepool 
+### 意义在于提高 频繁的创建和销毁时候的效率
+__autoreleasing
+Autorelease实际上是把对release的调用延迟了，对于每一次autorelease，系统只是把对象放入了当前的autorelease pool中，当pool被释放时，pool中所有的对象都会被调用release。
+
+
+
+##  MRC ARC
+ MRC（Mannul Reference Counting）和ARC(Automatic Reference Counting)，分别对应着手动引用计数和自动引用计数。
+
+
+
+
+
+
 ##  xib constraint 用法
+
 
