@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="guozhifeng" date="2016-07-13T04:01:08.106Z" timestamp="2016-07-13T04:01:08.106Z">
+    <change idref="t114" from="t-1" from-position="40">
+      <change idref="t114" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t114" attribute="internalAssignments" type="string" from="" to="6"/>
+      <change idref="t114" attribute="internalPrerequisitesString" type="string" to="180FS"/>
+      <change idref="t114" attribute="title" type="string" to="转诊"/>
+    </change>
+    <change idref="t182" to="t-1" to-position="37">
+      <change idref="t182" attribute="effort" type="real" from="28800" to="100800"/>
+      <change idref="t182" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-13T00:00:00.000Z"/>
+      <change idref="t182" attribute="title" type="string" to=" 搭界面－chatActivity"/>
+    </change>
+    <change idref="t96" from="t-1" from-position="33" to="t-1" to-position="39"/>
+    <change idref="t94" from="t-1" from-position="32" to="t-1" to-position="39"/>
+    <change idref="t196" to="t-1" to-position="40">
+      <change idref="t196" attribute="effort" type="real" from="28800" to="72000"/>
+      <change idref="t196" attribute="internalPrerequisitesString" type="string" to="94FS"/>
+      <change idref="t196" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-12T20:00:00.000Z"/>
+      <change idref="t196" attribute="title" type="string" to="item 页面"/>
+    </change>
+    <change idref="t194" to="t-1" to-position="41">
+      <change idref="t194" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t194" attribute="internalPrerequisitesString" type="string" to="196FS"/>
+      <change idref="t194" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-13T00:00:00.000Z"/>
+      <change idref="t194" attribute="startLockedDate" type="date" to="2016-08-03T00:00:00.000Z"/>
+      <change idref="t194" attribute="title" type="string" to=" 转诊"/>
+    </change>
+    <change idref="t85" attribute="resourceAssignmentType" type="real" from="0" to="1"/>
+    <change idref="t85" attribute="startLockedDate" type="date" to="2016-07-22T05:00:00.000Z"/>
+    <change idref="t87" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-19T04:00:00.000Z"/>
+    <change idref="t180" from="t-1" from-position="39" to="t87" to-position="3"/>
+    <change idref="t94" attribute="internalAssignments" type="string" from="" to="6"/>
+    <change idref="t94" attribute="internalPrerequisitesString" type="string" to="96FS"/>
+    <change idref="t94" attribute="startLockedDate" type="date" to="2016-07-27T00:00:00.000Z"/>
+    <change idref="t96" attribute="internalPrerequisitesString" type="string" from="94FS" to="182FS"/>
+    <change idref="t96" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-12T00:00:00.000Z"/>
+    <change idref="t101" attribute="internalPrerequisitesString" type="string" from="96FS" to="85FS"/>
+    <change idref="t179" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0"/>
+    <change idref="t180" attribute="internalPrerequisitesString" type="string" from="179FS" to="91FS"/>
+  </task-change-set>
+  <task-change-set user="guozhifeng" date="2016-07-13T04:02:28.207Z" timestamp="2016-07-13T04:02:28.207Z">
+    <change idref="t94" attribute="internalAssignments" type="string" from="6" to="7"/>
+    <change idref="t97" attribute="internalAssignments" type="string" from="6" to="7"/>
+    <change idref="t98" attribute="internalAssignments" type="string" from="6" to="7"/>
+    <change idref="t99" attribute="internalAssignments" type="string" from="6" to="7"/>
+    <change idref="t100" attribute="internalAssignments" type="string" from="6" to="7"/>
+    <change idref="t182" attribute="internalAssignments" type="string" from="" to="7"/>
+    <change idref="t194" attribute="internalAssignments" type="string" from="" to="7"/>
+    <change idref="t196" attribute="internalAssignments" type="string" from="" to="7"/>
+  </task-change-set>
+  <task-change-set user="guozhifeng" date="2016-07-13T05:59:04.584Z" timestamp="2016-07-13T05:59:04.584Z">
+    <change idref="t72" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-12T16:15:00.000Z"/>
+    <change idref="t82" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-11T15:45:00.000Z"/>
+  </task-change-set>
+  <task-change-set user="王远航" date="2016-07-20T04:40:25.338Z" timestamp="2016-07-20T04:40:25.338Z">
+    <change idref="t222" from="t-1" from-position="4">
+      <change idref="t222" attribute="internalPrerequisitesString" type="string" to="244FS"/>
+      <change idref="t222" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t222" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-12T03:45:00.000Z"/>
+      <change idref="t222" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t222" attribute="title" type="string" to="测试&amp;buffer"/>
+    </change>
+    <change idref="t411" to="t-1" to-position="4">
+      <change idref="t411" attribute="effort" type="real" from="28800" to="576000"/>
+      <change idref="t411" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t411" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-18T00:00:00.000Z"/>
+      <change idref="t411" attribute="title" type="string" to="测试文档＋自动化学习"/>
+    </change>
+    <change idref="t360" to="t-1" to-position="5">
+      <change idref="t360" attribute="internalPrerequisitesString" type="string" to="244FS"/>
+      <change idref="t360" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t360" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-12T03:45:00.000Z"/>
+      <change idref="t360" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t360" attribute="title" type="string" to="测试&amp;buffer"/>
+    </change>
+    <change idref="t361" to="t360" to-position="0">
+      <change idref="t361" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t361" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t361" attribute="internalEffortDone" type="real" from="0" to="900"/>
+      <change idref="t361" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-17T08:45:00.000Z"/>
+      <change idref="t361" attribute="title" type="string" to="注册"/>
+    </change>
+    <change idref="t362" to="t360" to-position="1">
+      <change idref="t362" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t362" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t362" attribute="internalPrerequisitesString" type="string" to="361FS"/>
+      <change idref="t362" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-18T00:45:00.000Z"/>
+      <change idref="t362" attribute="title" type="string" to="登录／首次到首页的提示消息"/>
+    </change>
+    <change idref="t399" to="t360" to-position="2">
+      <change idref="t399" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t399" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t399" attribute="internalPrerequisitesString" type="string" to="362FS"/>
+      <change idref="t399" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-18T03:45:00.000Z"/>
+      <change idref="t399" attribute="title" type="string" to="医师认证"/>
+    </change>
+    <change idref="t400" to="t360" to-position="3">
+      <change idref="t400" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t400" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t400" attribute="internalPrerequisitesString" type="string" to="399FS"/>
+      <change idref="t400" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-18T05:00:00.000Z"/>
+      <change idref="t400" attribute="title" type="string" to="首页－banner"/>
+    </change>
+    <change idref="t402" to="t360" to-position="4">
+      <change idref="t402" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t402" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t402" attribute="internalPrerequisitesString" type="string" to="400FS"/>
+      <change idref="t402" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-18T08:45:00.000Z"/>
+      <change idref="t402" attribute="title" type="string" to="首页－发帖子"/>
+    </change>
+    <change idref="t401" to="t360" to-position="5">
+      <change idref="t401" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t401" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t401" attribute="internalPrerequisitesString" type="string" to="402FS"/>
+      <change idref="t401" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-19T01:45:00.000Z"/>
+      <change idref="t401" attribute="title" type="string" to="同行－发帖子"/>
+    </change>
+    <change idref="t355" to="t360" to-position="6">
+      <change idref="t355" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t355" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t355" attribute="internalPrerequisitesString" type="string" to="401FS"/>
+      <change idref="t355" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-19T08:00:00.000Z"/>
+      <change idref="t355" attribute="title" type="string" to="同行－帖子列表"/>
+    </change>
+    <change idref="t403" to="t360" to-position="7">
+      <change idref="t403" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t403" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t403" attribute="internalPrerequisitesString" type="string" to="355FS"/>
+      <change idref="t403" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-22T01:00:00.000Z"/>
+      <change idref="t403" attribute="title" type="string" to="同行－帖子详情"/>
+    </change>
+    <change idref="t404" to="t360" to-position="8">
+      <change idref="t404" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t404" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t404" attribute="internalPrerequisitesString" type="string" to="403FS"/>
+      <change idref="t404" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-22T06:00:00.000Z"/>
+      <change idref="t404" attribute="title" type="string" to="工作室主页－讨论社区"/>
+    </change>
+    <change idref="t414" to="t360" to-position="9">
+      <change idref="t414" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t414" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t414" attribute="internalPrerequisitesString" type="string" to="404FS"/>
+      <change idref="t414" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-22T08:00:00.000Z"/>
+      <change idref="t414" attribute="title" type="string" to="工作室主页－列表信息"/>
+    </change>
+    <change idref="t369" to="t360" to-position="10">
+      <change idref="t369" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t369" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t369" attribute="internalPrerequisitesString" type="string" to="414FS"/>
+      <change idref="t369" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-23T00:15:00.000Z"/>
+      <change idref="t369" attribute="title" type="string" to="工作室主页－更多"/>
+    </change>
+    <change idref="t415" to="t360" to-position="11">
+      <change idref="t415" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t415" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t415" attribute="internalPrerequisitesString" type="string" to="369FS"/>
+      <change idref="t415" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-23T01:15:00.000Z"/>
+      <change idref="t415" attribute="title" type="string" to="工作室主页－转诊"/>
+    </change>
+    <change idref="t416" to="t360" to-position="12">
+      <change idref="t416" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t416" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t416" attribute="internalPrerequisitesString" type="string" to="415FS"/>
+      <change idref="t416" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-23T06:45:00.000Z"/>
+      <change idref="t416" attribute="title" type="string" to="工作室主页－私聊"/>
+    </change>
+    <change idref="t417" to="t360" to-position="13">
+      <change idref="t417" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t417" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t417" attribute="internalPrerequisitesString" type="string" to="416FS"/>
+      <change idref="t417" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-23T08:45:00.000Z"/>
+      <change idref="t417" attribute="title" type="string" to="工作室主页－群聊"/>
+    </change>
+    <change idref="t405" to="t360" to-position="14">
+      <change idref="t405" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t405" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t405" attribute="internalPrerequisitesString" type="string" to="417FS"/>
+      <change idref="t405" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-24T05:45:00.000Z"/>
+      <change idref="t405" attribute="title" type="string" to="个人主页"/>
+    </change>
+    <change idref="t418" to="t360" to-position="15">
+      <change idref="t418" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t418" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t418" attribute="internalPrerequisitesString" type="string" to="405FS"/>
+      <change idref="t418" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-24T07:45:00.000Z"/>
+      <change idref="t418" attribute="title" type="string" to="活动页面－类型分类"/>
+    </change>
+    <change idref="t419" to="t360" to-position="16">
+      <change idref="t419" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t419" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t419" attribute="internalPrerequisitesString" type="string" to="418FS"/>
+      <change idref="t419" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-25T00:45:00.000Z"/>
+      <change idref="t419" attribute="title" type="string" to="活动－正在直播区域"/>
+    </change>
+    <change idref="t363" to="t360" to-position="17">
+      <change idref="t363" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t363" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t363" attribute="internalPrerequisitesString" type="string" to="419FS"/>
+      <change idref="t363" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-24T06:45:00.000Z"/>
+      <change idref="t363" attribute="title" type="string" to="活动报名"/>
+    </change>
+    <change idref="t420" to="t360" to-position="18">
+      <change idref="t420" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t420" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t420" attribute="internalPrerequisitesString" type="string" to="363FS"/>
+      <change idref="t420" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-24T08:45:00.000Z"/>
+      <change idref="t420" attribute="title" type="string" to="正在直播活动－聊天"/>
+    </change>
+    <change idref="t421" to="t360" to-position="19">
+      <change idref="t421" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t421" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t421" attribute="internalPrerequisitesString" type="string" to="420FS"/>
+      <change idref="t421" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-26T00:45:00.000Z"/>
+      <change idref="t421" attribute="title" type="string" to="正在直播活动－视频播放"/>
+    </change>
+    <change idref="t422" to="t360" to-position="20">
+      <change idref="t422" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t422" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t422" attribute="internalPrerequisitesString" type="string" to="421FS"/>
+      <change idref="t422" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-26T02:45:00.000Z"/>
+      <change idref="t422" attribute="title" type="string" to="直播活动反馈"/>
+    </change>
+    <change idref="t423" to="t360" to-position="21">
+      <change idref="t423" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t423" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t423" attribute="internalPrerequisitesString" type="string" to="422FS"/>
+      <change idref="t423" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-25T06:45:00.000Z"/>
+      <change idref="t423" attribute="title" type="string" to="活动回放－视频播放"/>
+    </change>
+    <change idref="t364" to="t360" to-position="22">
+      <change idref="t364" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t364" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t364" attribute="internalPrerequisitesString" type="string" to="423FS"/>
+      <change idref="t364" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-25T08:45:00.000Z"/>
+      <change idref="t364" attribute="title" type="string" to="活动回放－发布新帖子"/>
+    </change>
+    <change idref="t424" to="t360" to-position="23">
+      <change idref="t424" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t424" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t424" attribute="internalPrerequisitesString" type="string" to="364FS"/>
+      <change idref="t424" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-29T02:45:00.000Z"/>
+      <change idref="t424" attribute="title" type="string" to="活动回放－帖子列表"/>
+    </change>
+    <change idref="t425" to="t360" to-position="24">
+      <change idref="t425" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t425" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t425" attribute="internalPrerequisitesString" type="string" to="424FS"/>
+      <change idref="t425" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-29T05:45:00.000Z"/>
+      <change idref="t425" attribute="title" type="string" to="活动回放反馈"/>
+    </change>
+    <change idref="t412" to="t360" to-position="25">
+      <change idref="t412" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t412" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t412" attribute="internalPrerequisitesString" type="string" to="425FS"/>
+      <change idref="t412" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-29T07:45:00.000Z"/>
+      <change idref="t412" attribute="title" type="string" to="我的页面－修改个人资料"/>
+    </change>
+    <change idref="t409" to="t360" to-position="26">
+      <change idref="t409" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t409" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t409" attribute="internalPrerequisitesString" type="string" to="412FS"/>
+      <change idref="t409" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-30T00:45:00.000Z"/>
+      <change idref="t409" attribute="title" type="string" to="我的页面－列表信息"/>
+    </change>
+    <change idref="t426" to="t360" to-position="27">
+      <change idref="t426" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t426" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t426" attribute="internalPrerequisitesString" type="string" to="409FS"/>
+      <change idref="t426" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-30T02:45:00.000Z"/>
+      <change idref="t426" attribute="title" type="string" to="我的页面－转诊"/>
+    </change>
+    <change idref="t413" to="t360" to-position="28">
+      <change idref="t413" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t413" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t413" attribute="internalPrerequisitesString" type="string" to="426FS"/>
+      <change idref="t413" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-30T05:45:00.000Z"/>
+      <change idref="t413" attribute="noLaterThanConstraintDate" type="date" to="2016-08-30T07:15:00.000Z"/>
+      <change idref="t413" attribute="title" type="string" to="我的页面－设置"/>
+    </change>
+    <change idref="t427" to="t360" to-position="29">
+      <change idref="t427" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t427" attribute="internalPrerequisitesString" type="string" to="413FS"/>
+      <change idref="t427" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-26T03:30:00.000Z"/>
+      <change idref="t427" attribute="title" type="string" to="整体流程"/>
+    </change>
+    <change idref="t428" to="t360" to-position="30">
+      <change idref="t428" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t428" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t428" attribute="internalPrerequisitesString" type="string" to="427FS"/>
+      <change idref="t428" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-30T03:30:00.000Z"/>
+      <change idref="t428" attribute="title" type="string" to="压力测试"/>
+    </change>
+    <change idref="t429" to="t360" to-position="31">
+      <change idref="t429" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t429" attribute="internalPrerequisitesString" type="string" to="428FS"/>
+      <change idref="t429" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-31T03:00:00.000Z"/>
+      <change idref="t429" attribute="title" type="string" to="检验bug＋上线前必测内容"/>
+    </change>
+    <change idref="t406" to="t360" to-position="32">
+      <change idref="t406" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t406" attribute="internalPrerequisitesString" type="string" to="429FS"/>
+      <change idref="t406" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-20T00:00:00.000Z"/>
+      <change idref="t406" attribute="title" type="string" to="buffer"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="王远航" date="2016-07-21T02:27:14.184Z" timestamp="2016-07-21T02:27:14.184Z">
+    <change idref="t411" attribute="isGroup" type="real" from="0" to="1"/>
+    <change idref="t411" attribute="multiResourceWorkType" type="real" from="0"/>
+    <change idref="t411" attribute="isSplittableTask" type="real" from="1"/>
+    <change idref="t411" attribute="taskType" type="real" from="0" to="2"/>
+    <change idref="t411" attribute="resourceAssignmentType" type="real" from="0"/>
+    <change idref="t411" attribute="staticCost" type="real" from="0"/>
+    <change idref="t411" attribute="effort" type="real" from="576000"/>
+    <change idref="t411" attribute="isSplitChunk" type="real" from="0"/>
+    <change idref="t411" attribute="scheduleType" type="real" from="0"/>
+    <change idref="t411" attribute="noEarlierThanConstraintDate" type="date" from="2016-07-18T00:00:00.000Z" to="2016-07-12T00:45:00.000Z"/>
+    <change idref="t411" attribute="internalAssignments" type="string" from="10"/>
+    <change idref="t411" attribute="isSplitTask" type="real" from="0"/>
+    <change idref="t411" attribute="internalEffortDone" type="real" from="0"/>
+    <change idref="t431" to="t411" to-position="0">
+      <change idref="t431" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t431" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t431" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-21T00:00:00.000Z"/>
+      <change idref="t431" attribute="title" type="string" to="编写测试文档"/>
+    </change>
+    <change idref="t432" to="t411" to-position="1">
+      <change idref="t432" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t432" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t432" attribute="internalPrerequisitesString" type="string" to="431FS"/>
+      <change idref="t432" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-28T00:00:00.000Z"/>
+      <change idref="t432" attribute="title" type="string" to="查找自动化测试工具"/>
+    </change>
+    <change idref="t433" to="t411" to-position="2">
+      <change idref="t433" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t433" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t433" attribute="internalPrerequisitesString" type="string" to="432FS"/>
+      <change idref="t433" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T08:45:00.000Z"/>
+      <change idref="t433" attribute="title" type="string" to="工具使用"/>
+    </change>
+    <change idref="t435" to="t411" to-position="3">
+      <change idref="t435" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t435" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t435" attribute="internalPrerequisitesString" type="string" to="433FS"/>
+      <change idref="t435" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-04T00:00:00.000Z"/>
+      <change idref="t435" attribute="title" type="string" to="脚本编写"/>
+    </change>
+    <change idref="t434" to="t411" to-position="4">
+      <change idref="t434" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t434" attribute="internalAssignments" type="string" from="" to="10"/>
+      <change idref="t434" attribute="internalPrerequisitesString" type="string" to="435FS"/>
+      <change idref="t434" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-11T00:00:00.000Z"/>
+      <change idref="t434" attribute="title" type="string" to="每天测试线上版本，找bug"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="guozhifeng" date="2016-07-24T01:14:18.048Z" timestamp="2016-07-24T01:14:18.048Z">
+    <change idref="t303" from="t275" from-position="16" resolved="yes">
+      <change idref="t303" attribute="internalAssignments" type="string" from="" to="7"/>
+      <change idref="t303" attribute="internalPrerequisitesString" type="string" to="304FS"/>
+      <change idref="t303" attribute="title" type="string" to="票据过期"/>
+    </change>
+    <change idref="t436" to="t275" to-position="15" resolved="yes">
+      <change idref="t436" attribute="internalPrerequisitesString" type="string" to="304FS"/>
+      <change idref="t436" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-03T02:45:00.000Z"/>
+      <change idref="t436" attribute="title" type="string" to="票据过期"/>
+    </change>
+    <change idref="t308" from="t275" from-position="14" to="t275" to-position="17" resolved="yes"/>
+    <change idref="t304" attribute="internalPrerequisitesString" type="string" from="308FS" to="309FS" resolved="yes"/>
+    <change idref="t304" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t304" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-02T06:00:00.000Z" resolved="yes"/>
+    <change idref="t308" attribute="internalPrerequisitesString" type="string" from="309FS" to="313FS" resolved="yes"/>
+    <change idref="t308" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t308" attribute="noEarlierThanConstraintDate" type="date" from="2016-08-02T20:45:00.000Z" to="2016-08-08T07:30:00.000Z" resolved="yes"/>
+    <change idref="t313" attribute="internalPrerequisitesString" type="string" from="303FS" to="436FS" resolved="yes"/>
+    <change idref="t313" attribute="noEarlierThanConstraintDate" type="date" from="2016-08-08T04:15:00.000Z" to="2016-08-04T02:30:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="yafu" date="2016-07-19T06:36:49.117Z" timestamp="2016-07-19T06:36:49.117Z">
+    <change idref="r2" from="r-1" from-position="1">
+      <change idref="r2" attribute="name" type="string" to="IOS-李"/>
+    </change>
+  </resource-change-set>
+</changelog>

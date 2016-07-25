@@ -98,3 +98,7 @@ strong 用来修饰强引用的属性；对应以前retain
  
 
 weak 用来修饰弱引用的属性；对应以前的assign
+
+
+
+### dispatch_once

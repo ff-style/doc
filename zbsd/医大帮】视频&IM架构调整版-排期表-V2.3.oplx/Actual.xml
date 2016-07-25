@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="giyXjU9Im0S">
+  <start-date>2016-07-12T00:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>任务 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>里程碑 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>群组 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>资源 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>设备 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>素材 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>群组 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <type>Group</type>
+    <child-resource idref="r1"/>
+    <child-resource idref="r4"/>
+    <child-resource idref="r6"/>
+    <child-resource idref="r7"/>
+    <child-resource idref="r8"/>
+    <child-resource idref="r9"/>
+    <child-resource idref="r10"/>
+    <child-resource idref="r11"/>
+    <child-resource idref="r12"/>
+  </resource>
+  <resource id="r1">
+    <name>IOS-付</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r4">
+    <name>Server-蒲</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r6">
+    <name>Android-郭</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r7">
+    <name>Android-胡</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r8">
+    <name>Client-李-胡</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r9">
+    <name>Client-付-郭</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r10">
+    <name>Test－王</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r11">
+    <name>IOS-左恒松</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r12">
+    <name>IOS-乔汝嘉</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t234"/>
+    <child-task idref="t244"/>
+    <child-task idref="t263"/>
+    <child-task idref="t275"/>
+    <child-task idref="t411"/>
+    <child-task idref="t360"/>
+  </task>
+  <task id="t234">
+    <title>视频</title>
+    <type>group</type>
+    <start-constraint-date>2016-07-11T10:30:00.000Z</start-constraint-date>
+    <child-task idref="t237"/>
+    <child-task idref="t240"/>
+    <child-task idref="t241"/>
+    <child-task idref="t242"/>
+    <child-task idref="t243"/>
+    <start-no-earlier-than>2016-07-11T10:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t237">
+    <title>活动反馈（活动评价，只有跳转逻辑重写）</title>
+    <type>group</type>
+    <child-task idref="t238"/>
+    <child-task idref="t239"/>
+  </task>
+  <task id="t238">
+    <title>直播情况</title>
+    <effort>7200</effort>
+    <assignment idref="r8"/>
+  </task>
+  <task id="t239">
+    <title>回放情况</title>
+    <effort>14400</effort>
+    <assignment idref="r8"/>
+  </task>
+  <task id="t240">
+    <title>回放互动</title>
+    <effort>100800</effort>
+    <prerequisite-task idref="t237"/>
+    <assignment idref="r8"/>
+  </task>
+  <task id="t241">
+    <title>直播页面</title>
+    <effort>72000</effort>
+    <prerequisite-task idref="t240"/>
+    <assignment idref="r8"/>
+  </task>
+  <task id="t242">
+    <title>非Wi-Fi情况下的观看视频</title>
+    <effort>21600</effort>
+    <prerequisite-task idref="t241"/>
+    <assignment idref="r8"/>
+  </task>
+  <task id="t243">
+    <title>播放课件视频</title>
+    <effort>14400</effort>
+    <prerequisite-task idref="t242"/>
+    <assignment idref="r8"/>
+  </task>
+  <task id="t244">
+    <title> IM_IOS组</title>
+    <type>group</type>
+    <start-constraint-date>2016-07-13T05:00:00.000Z</start-constraint-date>
+    <child-task idref="t259"/>
+    <child-task idref="t260"/>
+    <child-task idref="t248"/>
+    <child-task idref="t247"/>
+    <child-task idref="t330"/>
+    <child-task idref="t331"/>
+    <child-task idref="t252"/>
+    <child-task idref="t250"/>
+    <child-task idref="t249"/>
+    <child-task idref="t353"/>
+    <child-task idref="t354"/>
+    <child-task idref="t332"/>
+    <child-task idref="t333"/>
+    <child-task idref="t254"/>
+    <child-task idref="t356"/>
+    <child-task idref="t358"/>
+    <child-task idref="t343"/>
+    <child-task idref="t352"/>
+    <child-task idref="t344"/>
+    <child-task idref="t251"/>
+    <start-no-earlier-than>2016-07-13T05:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t247">
+    <title>票据过期</title>
+    <effort>43200</effort>
+    <locked-end-date>2016-07-19T09:00:00.000Z</locked-end-date>
+    <start-constraint-date>2016-07-18T05:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t248"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-07-18T05:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t248">
+    <title>IM登录</title>
+    <effort>36000</effort>
+    <start-constraint-date>2016-07-14T23:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t260"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-07-14T23:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t249">
+    <title>群聊</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-07-22T03:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t250"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2016-07-22T03:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t250">
+    <title>会话列表私聊消息显示及处理</title>
+    <effort>43200</effort>
+    <start-constraint-date>2016-07-21T00:15:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t252" kind="SS"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2016-07-21T00:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t251">
+    <title>同行红点</title>
+    <effort>28800</effort>
+    <locked-end-date>2016-08-08T02:45:00.000Z</locked-end-date>
+    <start-constraint-date>2016-08-05T02:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t344"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-08-05T02:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t252">
+    <title>私聊完整样式调整</title>
+    <effort>187200</effort>
+    <start-constraint-date>2016-07-21T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t330"/>
+    <assignment idref="r11"/>
+    <start-no-earlier-than>2016-07-21T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t254">
+    <title>活动</title>
+    <type>group</type>
+    <start-constraint-date>2016-07-27T05:45:00.000Z</start-constraint-date>
+    <child-task idref="t339"/>
+    <child-task idref="t340"/>
+    <child-task idref="t341"/>
+    <child-task idref="t337"/>
+    <child-task idref="t338"/>
+    <child-task idref="t357"/>
+    <start-no-earlier-than>2016-07-27T05:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t259">
+    <title>集成SDK</title>
+    <effort>28800</effort>
+    <locked-end-date>2016-07-14T04:00:00.000Z</locked-end-date>
+    <start-constraint-date>2016-07-13T04:15:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-07-13T04:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t260">
+    <title>初始化</title>
+    <effort>14400</effort>
+    <locked-start-date>2016-07-14T05:00:00.000Z</locked-start-date>
+    <start-constraint-date>2016-07-14T03:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t259"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-07-14T03:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t263">
+    <title>SERVER组</title>
+    <type>group</type>
+    <start-constraint-date>2016-07-11T21:45:00.000Z</start-constraint-date>
+    <child-task idref="t271"/>
+    <child-task idref="t270"/>
+    <child-task idref="t272"/>
+    <child-task idref="t273"/>
+    <child-task idref="t274"/>
+    <start-no-earlier-than>2016-07-11T21:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t270">
+    <title>云通讯sdk服务</title>
+    <effort>115200</effort>
+    <start-constraint-date>2016-07-19T23:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t271"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2016-07-19T23:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t271">
+    <title>更换域名</title>
+    <effort>144000</effort>
+    <start-constraint-date>2016-07-12T16:15:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-07-12T16:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t272">
+    <title>更换消息接口</title>
+    <effort>144000</effort>
+    <start-constraint-date>2016-07-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t270"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2016-07-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t273">
+    <title>云通讯模块数据模型设计</title>
+    <effort>115200</effort>
+    <prerequisite-task idref="t272"/>
+    <assignment idref="r4"/>
+  </task>
+  <task id="t274">
+    <title>云通讯回调</title>
+    <effort>86400</effort>
+    <start-constraint-date>2016-08-07T08:15:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t273"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2016-08-07T08:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t275">
+    <title>Android组</title>
+    <type>group</type>
+    <start-constraint-date>2016-07-11T21:00:00.000Z</start-constraint-date>
+    <child-task idref="t277"/>
+    <child-task idref="t278"/>
+    <child-task idref="t279"/>
+    <child-task idref="t280"/>
+    <child-task idref="t292"/>
+    <child-task idref="t291"/>
+    <child-task idref="t293"/>
+    <child-task idref="t305"/>
+    <child-task idref="t290"/>
+    <child-task idref="t285"/>
+    <child-task idref="t312"/>
+    <child-task idref="t311"/>
+    <child-task idref="t310"/>
+    <child-task idref="t309"/>
+    <child-task idref="t304"/>
+    <child-task idref="t436"/>
+    <child-task idref="t313"/>
+    <child-task idref="t308"/>
+    <start-no-earlier-than>2016-07-11T21:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t277">
+    <title>sdk接入测试</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-07-11T23:15:00.000Z</start-constraint-date>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2016-07-11T23:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t278">
+    <title>初始化相关</title>
+    <effort>43200</effort>
+    <prerequisite-task idref="t277"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t279">
+    <title>同步用户数据</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t278"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t280">
+    <title>c2c私聊用户老师和学生之间</title>
+    <type>group</type>
+    <start-constraint-date>2016-07-18T03:30:00.000Z</start-constraint-date>
+    <child-task idref="t281"/>
+    <child-task idref="t282"/>
+    <child-task idref="t283"/>
+    <child-task idref="t284"/>
+    <prerequisite-task idref="t279"/>
+    <start-no-earlier-than>2016-07-18T03:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t281">
+    <title>消息类型</title>
+    <effort>86400</effort>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t282">
+    <title>样式调整</title>
+    <effort>14400</effort>
+    <prerequisite-task idref="t281"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t283">
+    <title>历史数据加载（服务端）</title>
+    <effort>14400</effort>
+    <prerequisite-task idref="t282"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t284">
+    <title>欢迎页面</title>
+    <effort>3600</effort>
+    <prerequisite-task idref="t283"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t285">
+    <title>信鸽</title>
+    <type>group</type>
+    <start-constraint-date>2016-07-18T04:30:00.000Z</start-constraint-date>
+    <child-task idref="t286"/>
+    <child-task idref="t287"/>
+    <child-task idref="t288"/>
+    <child-task idref="t289"/>
+    <prerequisite-task idref="t290"/>
+    <start-no-earlier-than>2016-07-18T04:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t286">
+    <title>审核通过</title>
+    <effort>28800</effort>
+    <assignment idref="r7"/>
+  </task>
+  <task id="t287">
+    <title>帖子回复通知</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t286"/>
+    <assignment idref="r7"/>
+  </task>
+  <task id="t288">
+    <title>加入工作室成功</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t287"/>
+    <assignment idref="r7"/>
+  </task>
+  <task id="t289">
+    <title>信鸽sdk接入</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t288"/>
+    <assignment idref="r7"/>
+  </task>
+  <task id="t290">
+    <title>搭界面－chatActivity</title>
+    <effort>100800</effort>
+    <start-constraint-date>2016-07-12T08:45:00.000Z</start-constraint-date>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2016-07-12T08:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t291">
+    <title>离线通知</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-07-25T21:15:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t292"/>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2016-07-25T21:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t292">
+    <title>消息列表</title>
+    <effort>43200</effort>
+    <start-constraint-date>2016-07-22T05:30:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t280"/>
+    <start-no-earlier-than>2016-07-22T05:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t293">
+    <title>直播活动</title>
+    <type>group</type>
+    <child-task idref="t294"/>
+    <child-task idref="t295"/>
+    <child-task idref="t296"/>
+    <child-task idref="t297"/>
+    <child-task idref="t298"/>
+    <child-task idref="t299"/>
+    <child-task idref="t300"/>
+    <child-task idref="t301"/>
+    <child-task idref="t302"/>
+    <prerequisite-task idref="t291"/>
+  </task>
+  <task id="t294">
+    <title>直播提问界面</title>
+    <effort>28800</effort>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t295">
+    <title>消息类型－问答</title>
+    <effort>7200</effort>
+    <prerequisite-task idref="t294"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t296">
+    <title>点赞</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t295"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t297">
+    <title>在线人数</title>
+    <effort>14400</effort>
+    <prerequisite-task idref="t296"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t298">
+    <title>提问样式调整</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t297"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t299">
+    <title>只看问答</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t298"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t300">
+    <title>同问</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t299"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t301">
+    <title>小助手 转为问题</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t300"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t302">
+    <title/>
+    <effort>28800</effort>
+    <prerequisite-task idref="t301"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t304">
+    <title>医大帮小助手</title>
+    <effort>14400</effort>
+    <start-constraint-date>2016-08-02T06:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t309"/>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2016-08-02T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t305">
+    <title>只看问答</title>
+    <type>group</type>
+    <child-task idref="t306"/>
+    <child-task idref="t307"/>
+    <prerequisite-task idref="t293"/>
+  </task>
+  <task id="t306">
+    <title>接口调用</title>
+    <effort>14400</effort>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t307">
+    <title>问答显示</title>
+    <effort>57600</effort>
+    <prerequisite-task idref="t306"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t308">
+    <title>转诊</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-08-08T07:30:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t313"/>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2016-08-08T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t309">
+    <title>item 页面</title>
+    <effort>72000</effort>
+    <start-constraint-date>2016-07-29T04:30:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t310"/>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2016-07-29T04:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t310">
+    <title>直播活动消息类型</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-07-28T05:15:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t311"/>
+    <start-no-earlier-than>2016-07-28T05:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t311">
+    <title>工作室群聊</title>
+    <effort>72000</effort>
+    <start-constraint-date>2016-07-25T18:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t312"/>
+    <start-no-earlier-than>2016-07-25T18:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t312">
+    <title>界面优化</title>
+    <effort>43200</effort>
+    <start-constraint-date>2016-07-22T03:15:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t285"/>
+    <start-no-earlier-than>2016-07-22T03:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t313">
+    <title>界面优化</title>
+    <effort>72000</effort>
+    <start-constraint-date>2016-08-04T02:30:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t436"/>
+    <start-no-earlier-than>2016-08-04T02:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t330">
+    <title>私聊基本流程搭建</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-07-20T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t247"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-07-20T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t331">
+    <title>监听、消息处理</title>
+    <effort>129600</effort>
+    <start-constraint-date>2016-07-21T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t330"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-07-21T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t332">
+    <title>会话列表完整显示及处理</title>
+    <effort>57600</effort>
+    <locked-start-date>2016-07-27T05:30:00.000Z</locked-start-date>
+    <start-constraint-date>2016-07-27T05:30:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t354"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2016-07-27T05:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t333">
+    <title>群聊样式基于私聊扩展</title>
+    <effort>14400</effort>
+    <locked-end-date>2016-07-29T09:00:00.000Z</locked-end-date>
+    <start-constraint-date>2016-07-29T05:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t252"/>
+    <assignment idref="r11"/>
+    <start-no-earlier-than>2016-07-29T05:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t337">
+    <title>互动只看问答列表</title>
+    <effort>86400</effort>
+    <start-constraint-date>2016-07-29T05:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t332"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2016-07-29T05:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t338">
+    <title>互动问答样式</title>
+    <effort>43200</effort>
+    <start-constraint-date>2016-08-01T00:15:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t333"/>
+    <assignment idref="r11"/>
+    <start-no-earlier-than>2016-08-01T00:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t339">
+    <title>活动界面搭建</title>
+    <effort>43200</effort>
+    <locked-start-date>2016-07-27T05:30:00.000Z</locked-start-date>
+    <start-constraint-date>2016-07-27T05:30:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t331"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-07-27T05:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t340">
+    <title>活动互动显示</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-07-29T01:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t339"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-07-29T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t341">
+    <title>互动发消息及底部样式</title>
+    <effort>86400</effort>
+    <start-constraint-date>2016-08-01T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t340"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-08-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t343">
+    <title>APNS设置、接收</title>
+    <effort>28800</effort>
+    <locked-start-date>2016-08-03T05:45:00.000Z</locked-start-date>
+    <start-constraint-date>2016-08-03T05:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t337"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2016-08-03T05:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t344">
+    <title>讨论组红点</title>
+    <effort>36000</effort>
+    <start-constraint-date>2016-08-04T01:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t341"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-08-04T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t352">
+    <title>更多中消息缓存处理</title>
+    <effort>43200</effort>
+    <start-constraint-date>2016-08-04T06:15:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t343"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2016-08-04T06:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t353">
+    <title>医大帮小助手</title>
+    <effort>14400</effort>
+    <start-constraint-date>2016-07-26T05:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t249"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2016-07-26T05:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t354">
+    <title>欢迎</title>
+    <effort>14400</effort>
+    <locked-start-date>2016-07-27T00:00:00.000Z</locked-start-date>
+    <start-constraint-date>2016-07-27T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t353"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2016-07-27T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t355">
+    <title>同行－帖子列表</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-19T08:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t401"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-19T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t356">
+    <title>修改用户资料，用户信息刷新</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-08-03T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t357"/>
+    <assignment idref="r11"/>
+    <start-no-earlier-than>2016-08-03T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t357">
+    <title>在线人数</title>
+    <effort>14400</effort>
+    <start-constraint-date>2016-08-02T03:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t338"/>
+    <assignment idref="r11"/>
+    <start-no-earlier-than>2016-08-02T03:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t358">
+    <title>工作室审核接收消息处理</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-08-04T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t356"/>
+    <assignment idref="r11"/>
+    <start-no-earlier-than>2016-08-04T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t360">
+    <title>测试&amp;buffer</title>
+    <type>group</type>
+    <start-constraint-date>2016-08-12T03:45:00.000Z</start-constraint-date>
+    <child-task idref="t361"/>
+    <child-task idref="t362"/>
+    <child-task idref="t399"/>
+    <child-task idref="t400"/>
+    <child-task idref="t402"/>
+    <child-task idref="t401"/>
+    <child-task idref="t355"/>
+    <child-task idref="t403"/>
+    <child-task idref="t404"/>
+    <child-task idref="t414"/>
+    <child-task idref="t369"/>
+    <child-task idref="t415"/>
+    <child-task idref="t416"/>
+    <child-task idref="t417"/>
+    <child-task idref="t405"/>
+    <child-task idref="t418"/>
+    <child-task idref="t419"/>
+    <child-task idref="t363"/>
+    <child-task idref="t420"/>
+    <child-task idref="t421"/>
+    <child-task idref="t422"/>
+    <child-task idref="t423"/>
+    <child-task idref="t364"/>
+    <child-task idref="t424"/>
+    <child-task idref="t425"/>
+    <child-task idref="t412"/>
+    <child-task idref="t409"/>
+    <child-task idref="t426"/>
+    <child-task idref="t413"/>
+    <child-task idref="t427"/>
+    <child-task idref="t428"/>
+    <child-task idref="t429"/>
+    <child-task idref="t406"/>
+    <prerequisite-task idref="t244"/>
+    <start-no-earlier-than>2016-08-12T03:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t361">
+    <title>注册</title>
+    <effort>7200</effort>
+    <effort-done>900</effort-done>
+    <start-constraint-date>2016-08-17T08:45:00.000Z</start-constraint-date>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-17T08:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t362">
+    <title>登录／首次到首页的提示消息</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-18T00:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t361"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-18T00:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t363">
+    <title>活动报名</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-24T06:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t419"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-24T06:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t364">
+    <title>活动回放－发布新帖子</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-25T08:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t423"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-25T08:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t369">
+    <title>工作室主页－更多</title>
+    <effort>3600</effort>
+    <start-constraint-date>2016-08-23T00:15:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t414"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-23T00:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t399">
+    <title>医师认证</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-18T03:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t362"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-18T03:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t400">
+    <title>首页－banner</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-18T05:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t399"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-18T05:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t401">
+    <title>同行－发帖子</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-19T01:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t402"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-19T01:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t402">
+    <title>首页－发帖子</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-18T08:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t400"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-18T08:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t403">
+    <title>同行－帖子详情</title>
+    <effort>14400</effort>
+    <start-constraint-date>2016-08-22T01:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t355"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-22T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t404">
+    <title>工作室主页－讨论社区</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-22T06:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t403"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-22T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t405">
+    <title>个人主页</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-24T05:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t417"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-24T05:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t406">
+    <title>buffer</title>
+    <effort>86400</effort>
+    <start-constraint-date>2016-07-20T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t429"/>
+    <start-no-earlier-than>2016-07-20T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t409">
+    <title>我的页面－列表信息</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-30T00:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t412"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-30T00:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t411">
+    <title>测试文档＋自动化学习</title>
+    <type>group</type>
+    <start-constraint-date>2016-07-12T00:45:00.000Z</start-constraint-date>
+    <child-task idref="t431"/>
+    <child-task idref="t432"/>
+    <child-task idref="t433"/>
+    <child-task idref="t435"/>
+    <child-task idref="t434"/>
+    <start-no-earlier-than>2016-07-12T00:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t412">
+    <title>我的页面－修改个人资料</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-29T07:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t425"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-29T07:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t413">
+    <title>我的页面－设置</title>
+    <effort>3600</effort>
+    <start-constraint-date>2016-08-30T05:45:00.000Z</start-constraint-date>
+    <end-constraint-date>2016-08-30T07:15:00.000Z</end-constraint-date>
+    <prerequisite-task idref="t426"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-30T05:45:00.000Z</start-no-earlier-than>
+    <end-no-later-than>2016-08-30T07:15:00.000Z</end-no-later-than>
+  </task>
+  <task id="t414">
+    <title>工作室主页－列表信息</title>
+    <effort>3600</effort>
+    <start-constraint-date>2016-08-22T08:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t404"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-22T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t415">
+    <title>工作室主页－转诊</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-23T01:15:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t369"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-23T01:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t416">
+    <title>工作室主页－私聊</title>
+    <effort>10800</effort>
+    <start-constraint-date>2016-08-23T06:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t415"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-23T06:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t417">
+    <title>工作室主页－群聊</title>
+    <effort>14400</effort>
+    <start-constraint-date>2016-08-23T08:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t416"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-23T08:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t418">
+    <title>活动页面－类型分类</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-24T07:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t405"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-24T07:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t419">
+    <title>活动－正在直播区域</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-25T00:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t418"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-25T00:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t420">
+    <title>正在直播活动－聊天</title>
+    <effort>14400</effort>
+    <start-constraint-date>2016-08-24T08:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t363"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-24T08:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t421">
+    <title>正在直播活动－视频播放</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-26T00:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t420"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-26T00:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t422">
+    <title>直播活动反馈</title>
+    <effort>14400</effort>
+    <start-constraint-date>2016-08-26T02:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t421"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-26T02:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t423">
+    <title>活动回放－视频播放</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-25T06:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t422"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-25T06:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t424">
+    <title>活动回放－帖子列表</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-29T02:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t364"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-29T02:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t425">
+    <title>活动回放反馈</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-29T05:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t424"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-29T05:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t426">
+    <title>我的页面－转诊</title>
+    <effort>7200</effort>
+    <start-constraint-date>2016-08-30T02:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t409"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-30T02:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t427">
+    <title>整体流程</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-08-26T03:30:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t413"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-26T03:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t428">
+    <title>压力测试</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-08-30T03:30:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t427"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-30T03:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t429">
+    <title>检验bug＋上线前必测内容</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-08-31T03:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t428"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-31T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t431">
+    <title>编写测试文档</title>
+    <effort>144000</effort>
+    <start-constraint-date>2016-07-21T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-07-21T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t432">
+    <title>查找自动化测试工具</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-07-28T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t431"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-07-28T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t433">
+    <title>工具使用</title>
+    <effort>86400</effort>
+    <start-constraint-date>2016-07-29T08:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t432"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-07-29T08:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t434">
+    <title>每天测试线上版本，找bug</title>
+    <effort>144000</effort>
+    <start-constraint-date>2016-08-11T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t435"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-11T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t435">
+    <title>脚本编写</title>
+    <effort>144000</effort>
+    <start-constraint-date>2016-08-04T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t433"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2016-08-04T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t436">
+    <title>票据过期</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-08-03T02:45:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t304"/>
+    <start-no-earlier-than>2016-08-03T02:45:00.000Z</start-no-earlier-than>
+  </task>
+  <critical-path root="-1" enabled="true" resources="false">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
